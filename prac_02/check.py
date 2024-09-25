@@ -1,3 +1,13 @@
 """Demo program for VCS."""
-for i in range(5):
-    print("Hello")
+
+
+def main():
+    print_greeting()
+
+
+def print_greeting():
+    for i in range(5):
+        print("Hello")
+
+
+main()
