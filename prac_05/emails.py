@@ -6,6 +6,7 @@ Actual: 19 minutes
 
 
 def main():
+    """Confirm a users email and name and display it side by side"""
     email_to_name = {}
     email = input("Email: ")
     while email != "":
@@ -21,6 +22,7 @@ def main():
 
 
 def get_name_from_email(email):
+    """Get name from email prefix"""
     prefix = email.split("@")[0]
     parts = prefix.split(".")
     name = " ".join(parts).title()
